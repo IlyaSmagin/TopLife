@@ -34,7 +34,9 @@ body {
   font-family: "Lifehack Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 120px;
+  font-size: calc(50px + 4vw);
   line-height: 8rem;
+  line-height: calc(3rem + 4vw);
   text-transform: uppercase;
 }
 
@@ -60,10 +62,11 @@ body {
 .bg-wave {
   z-index: -0;
   margin-top: -5rem;
+  padding-top: 4rem;
 }
 
 .games {
-  margin-top: -20rem;
+  margin-top: -15rem;
 }
 .games-card {
   width: 340px;
@@ -127,6 +130,9 @@ body {
     height: 48px;
     min-width: 48px;
     padding: 0 0 0.25rem 0 !important;
+  }
+  .games {
+    margin-top: -5rem;
   }
 }
 
