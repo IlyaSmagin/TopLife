@@ -77,7 +77,7 @@
         </div>
       </nav>
       <div class="container-lg">
-        <div class="row align-items-center">
+        <div class="row" data-masonry='{"percentPosition": true }'>
           <div class="col-md-6 mt-5">
             <h1 class="titleText text-uppercase">
               Turn any space into a virtual playground
@@ -86,17 +86,21 @@
               an interactive projector game system that makes entertainment
               lively, hygienic, educational, and above all, a ton of fun
             </p>
+          </div>
+          <img
+            class="header-hero col-md-6"
+            src="./assets/img/header-hero.png"
+            alt="Girl"
+          />
+          <div class="col-md-6 text-center text-md-start">
             <a
-              class="btn header-button mt-5 ps-5 py-2 text-white btn-gradient rounded-pill"
+              class="btn header-button mt-5 mt-lg-0 ps-5 py-2 text-white btn-gradient rounded-pill"
               href="/"
               role="button"
               ><span class="align-middle fs-5">GET STARTED FOR FREE</span>
 
               <img class="ms-5" src="assets/svg/buttonArrow.svg" alt="Arrow" />
             </a>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/img/header-hero.png" alt="Girl" />
           </div>
         </div>
       </div>
@@ -414,6 +418,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script>
       var swiper = new Swiper(".swiper-container", {
         slidesPerView: 1,
